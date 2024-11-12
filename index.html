@@ -6,6 +6,7 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -19,12 +20,14 @@
       <nav class="navbar">
         <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
-        <a href="#services">SERVICES</a>
+        <a href="#skills">SKILLS</a>
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTACT</a>
       </nav>
     </header>
 
+
+    <!--HOME SECTION-->
     <section class="home" id="home">
       <div class="home-content">
         <h1>Hi, I'm <span>Ivana</span></h1>
@@ -59,105 +62,144 @@
       </div>
     </section>
 
-    <section class="about" id="about">
-       <div class="about-img">
-        <img src="public/logo.png" alt="">
-       </div>
 
-       <div class="about-content">
-        <h2>About <span>Me</span></h2>
-        <p>hahahahahahhhhhhhhhhahahahahhaa</p>
-        <a href="#" class="btn">Read More</a>
-       </div>
-    </section>
-
-    <section class="services" id="services">
-
-      <h2 class="heading">Services </h2>
-
-      <div class="services-container">
-        <div class="service-box">
-          <div class="service-info">
-            <i class="bx bxl-figma"></i>
-            <h4>UI/ UX Design</h4>
-            <p>
-              HEHEHEHEHEHEHEHEHEHE
-            </p>
-            
+     <!--ABOUT SECTION-->
+     <section class="about" id="about">
+      <div class="about-img">
+       <img src="public/bana.png" alt="">
+      </div>
+      <div class="about-content">
+       <h2>About <span>Me</span></h2>
+       <p>I am always exploring the unknown, innovating the future.</p>
+       <br>
+       <div class="timeline">
+        <div class="timeline-slider">
+          <div class="timeline-item active">
+            <p><span>Education</span></p>
+            <p>2021</p>
+          </div>
+          <div class="timeline-item">
+            <h4>2022</h4>
+            <p>Developed my first full-stack web application.</p>
+          </div>
+          <div class="timeline-item">
+            <h4>2023</h4>
+            <p>Worked as an intern in a software company.</p>
           </div>
         </div>
-
-        <div class="service-box">
-          <div class="service-info">
-            <i class="bx bx-code"></i>
-            <h4>Frontend Development</h4>
-            <p>
-              HEHEHEHEHEHEHEHEHEHE
-            </p>
-            
-          </div>
+        <div class="timeline-controls">
+          <button id="prev-btn">Previous</button>
+          <button id="next-btn">Next</button>
         </div>
+      </div>
+      </div>
+      
+      </div>
+   </section>
 
-        <div class="service-box">
-        <div class="service-info">
-          <i class="bx bx-code-curly"></i>
-          <h4>Backend Development</h4>
+   <!--SKILLS SECTION-->
+   <section class="skills" id="skills">
+    <h2 class="heading">Skills </h2>
+
+    <div class="skills-container">
+      <div class="skill-box">
+        <div class="skill-info">
+          <i class="bx bxl-figma"></i>
+          <h4>UI/ UX Design</h4>
           <p>
-            HEHEHEHEHEHEHEHEHEHE</p>
+            I have a solid grasp of UI/UX design principles, focusing on creating intuitive, user-centered interfaces. I'm eager to advance my skills by exploring more prototyping tools, deepening my understanding of user research, and refining my design systems knowledge for a more seamless user experience.
+          </p>
           
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-info">
+          <div class="icon-container">
+          <i class="bx bxl-html5"></i>
+          <i class="bx bxl-java"></i>
+          <i class="bx bxl-php"></i>
+          <h4>Frontend Development</h4>
+          <p>
+            I'm at an intermediate level in PHP, HTML, and Java, with solid knowledge of PHP syntax and server-side scripting, HTML5, accessibility, and responsive design, and core Java concepts and OOP. 
+          </p>
           </div>
         </div>
       </div>
-    </section>
+
+      <div class="skill-box">
+      <div class="skill-info">
+        <div class="icon-container">
+        <i class="bx bx-code-curly"></i>
+        <i class="bx bxl-mongodb"></i>
+        <i class="bx bxl-postgresql"></i>
+        <h4>Backend Development</h4>
+        <p>
+          I have a strong foundation in backend development, with experience in databases and APIs. My goal is to expand my knowledge by mastering database optimization, improving my skills in frameworks like Django, and enhancing security best practices.
+        </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <section class="projects" id="projects">
     <h2 class="heading">Projects</h2>
     <div class="projects-box">
 
       <div class="project-card">
-      <img src="" alt="">
+        <img src="public/pos.png" alt="">
+        <img src="public/pos2.png" alt="">
 
       <h3> POS SYSTEM</h3>
-      <p>bleh bleh bleh</p>
+      <p>A user-friendly POS application for the owners to easily access the information that they need in regards with their inventory and sales tracking.
+      </p>
         <div class="btn">Review Project</div>
         </div>
 
         <div class="project-card">
-          <img src="" alt="">
-          <h3> </h3>
-          <p>bleh bleh bleh</p>
+          <img src="public/cvsu.png" alt="">
+          <img src="public/cvsu1.png" alt="">
+
+          <h3>CvSU WEBSITE</h3>
+          <p>CvSU Bacoor City Campus website where it showcases the mission, vision, courses offered, and organizations of the school.</p>
             <div class="btn">Review Project</div>
             </div>
 
             <div class="project-card">
-              <img src="" alt="">
+              <img src="public/emes.png" alt="">
+              <img src="public/emes1.png" alt="">
         
-              <h3> Project 3</h3>
-              <p>bleh bleh bleh</p>
+              <h3> EMES LIT GALING</h3>
+              <p>The system was developed to create an effective educational website for Grade 6 students at Ezra Marie Elementary School. 
+              </p>
                 <div class="btn">Review Project</div>
                 </div>
 
                 <div class="project-card">
-                  <img src="" alt="">
+                  <img src="public/aether.png" alt="">
+                  <img src="public/aether1.png" alt="">
             
-                  <h3> Project 4</h3>
-                  <p>bleh bleh bleh</p>
+                  <h3> AETHER RESIDES</h3>
+                  <p>A Booking Registration System for Aether Resides to record transactions, and keep track of reservations.</p>
                     <div class="btn">Review Project</div>
                     </div>
 
                     <div class="project-card">
-                      <img src="" alt="">
+                      <img src="public/lebug1.png" alt="">
+                      <img src="public/lebug2.png" alt="">
                 
-                      <h3> Project 5</h3>
-                      <p>bleh bleh bleh</p>
+                      <h3> LÉ BUG</h3>
+                      <p>A simple portfolio website designed for a small IT company to effectively showcase its expertise, services, and rates in a professional and user-friendly manner. </p>
                         <div class="btn">Review Project</div>
                         </div>
 
                         <div class="project-card">
-                          <img src="" alt="">
+                          <img src="public/chess1.png" alt="">
+                          <img src="public/chess.png" alt="">
                     
-                          <h3> Project 6</h3>
-                          <p>bleh bleh bleh</p>
+                          <h3>CHESS CLUB</h3>
+                          <p>Java Chess App is a fully functional chess game application built using Java. This app allows users to play chess on their devices.</p>
                             <div class="btn">Review Project</div>
       </div>
     </div>
@@ -169,8 +211,8 @@
         <div class="form-and-info">
             <!-- Form Container -->
             <div class="form-container">
-                <h2>Let's work together</h2>
-                <p>Fill out the form to get in touch!</p>
+                <center><h2>LET'S WORK TOGETHER!</h2>
+                <p>Fill out the form to contact me.</p></center>
 
                 <!-- Contact Form -->
                 <form action="https://formspree.io/f/mgveyypb" method="POST" class="contact-form">
@@ -183,13 +225,15 @@
                         <input type="tel" name="phone" placeholder="Phone number">
                     </div>
                     <textarea name="message" placeholder="Type your message here." required></textarea>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                    <button type="reset" class="clear-btn">Clear</button>
+                    <button type="submit" class="submit-btn">SEND</button>
+                    <button type="reset" class="clear-btn">CLEAR</button>
                 </form>
             </div>
 
             <!-- Contact Info -->
             <div class="contact-info">
+              
+                <h2>Contact <span>Me</span></h2>
                 <div class="info-item">
                     <div class="icon">📞</div>
                     <div>
@@ -201,7 +245,7 @@
                     <div class="icon">✉️</div>
                     <div>
                         <p class="label">Email</p>
-                        <p>ivanamayemrlbm@gmail.com</p>
+                        <p>imbmillosa@gmail.com</p>
                     </div>
                 </div>
                 <div class="info-item">
@@ -216,27 +260,67 @@
     </div>
 </section>
 
-
-  <footer class="footer">
-
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Social Icons Section -->
     <div class="social-icons">
-      <a href="#">
+      <a href="https://github.com/Banabanaa">
         <i class="bx bxl-github"></i>
       </a>
 
-      <a href="#">
+      <a href="https://ph.linkedin.com/in/ivana-mariel-millosa-a80a391b2">
         <i class="bx bxl-linkedin-square"></i>
       </a>
 
-      <a href="#">
+      <a href="https://www.instagram.com/bmryuuu">
         <i class="bx bxl-instagram-alt"></i>
       </a>
 
-      <a href="#">
-        <i class="bx bxl-twitter"></i>
+      <a href="https://www.facebook.com/ivana.millosa?mibextid=ZbWKwL">
+        <i class="bx bxl-facebook"></i>
       </a>
     </div>
-  </footer>
+    </div>
+    <!-- Footer Text Section -->
+    <div class="footer-text">
+      <center><p>© 2024 Ivana Mariel B. Millosa. All rights reserved.</p></center>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const items = document.querySelectorAll(".timeline-item");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    let currentIndex = 0;
+
+    // Initialize the first item as active
+    items[currentIndex].classList.add("active");
+
+    // Function to show a specific item
+    function showItem(index) {
+      items.forEach((item, i) => {
+        if (i === index) {
+          item.classList.add("active");
+        } else {
+          item.classList.remove("active");
+        }
+      });
+    }
+
+    // Event listeners for buttons
+    prevBtn.addEventListener("click", () => {
+      currentIndex = (currentIndex - 1 + items.length) % items.length;
+      showItem(currentIndex);
+    });
+
+    nextBtn.addEventListener("click", () => {
+      currentIndex = (currentIndex + 1) % items.length;
+      showItem(currentIndex);
+    });
+  });
+</script>
 
     <script src="script.js"></script>
   </body>

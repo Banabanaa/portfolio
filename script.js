@@ -41,3 +41,5 @@ function getBackgroundImage() {
 document.addEventListener("DOMContentLoaded", () => {
   document.body.style.backgroundImage = getBackgroundImage();
 });
+
+
