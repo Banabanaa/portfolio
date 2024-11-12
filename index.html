@@ -12,7 +12,7 @@
 
     <header class="header">
       <a href="#home" class="logo">
-        <img src="logo.png" alt="">
+        <img src="logo.png" style="height: 50px;width: 150px;" alt="">
       </a>
 
       <i class="bx bx-menu" id="menu-icon"></i>
@@ -165,28 +165,59 @@
     </div>
   </section>
 
-    <section class="contact" id="contact">
-    <h2 class="heading">Contact <spam>Me</spam></h2>
+  <section class="contact" id="contact">
+    <div class="main-container">
 
-    <form name="submit-to-google-sheet" >
-    <div class="input-group" >
-    <div class="input-box">
-    <input type="text" name="FULL_NAME" placeholder="Full Name" required>
-    <input type="email" name="EMAIL" placeholder="Email" required>
-  </div>
-    <div class="input-box">
-      <input type="number" name="CONTACT_NUMBER" placeholder="Phone Number" required>
-      <input type="text" name="SUBJECT" placeholder="Subject" required>
+        <div class="form-and-info">
+            <!-- Form Container -->
+            <div class="form-container">
+                <h2>Let's work together</h2>
+                <p>Fill out the form to get in touch!</p>
+
+                <!-- Contact Form -->
+                <form action="https://formspree.io/f/mgveyypb" method="POST" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" name="firstname" placeholder="Firstname" required>
+                        <input type="text" name="lastname" placeholder="Lastname" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" placeholder="Email address" required>
+                        <input type="tel" name="phone" placeholder="Phone number">
+                    </div>
+                    <textarea name="message" placeholder="Type your message here." required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <button type="reset" class="clear-btn">Clear</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="icon">📞</div>
+                    <div>
+                        <p class="label">Phone</p>
+                        <p>(+63) 9912403677</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">✉️</div>
+                    <div>
+                        <p class="label">Email</p>
+                        <p>ivanamayemrlbm@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">📍</div>
+                    <div>
+                        <p class="label">Address</p>
+                        <p>San Nicolas 3, Bacoor City, Cavite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-<div class="input-group2"></div>
-<textarea name="MESSAGE" id=""placeholder="Your Message" cols="30" rows="10"></textarea>
-<input type="submit" value="SEND MESSAGE" class="btn" required>
-<span id="msg"></span>
-
-</form>
 </section>
+
 
   <footer class="footer">
 
