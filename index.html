@@ -76,29 +76,29 @@
         <div class="timeline-slider">
           <div class="timeline-item active">
               <p><span>Education</span></p>
-              <p>Elementary | Golden Acres Elementary School | 2010-2016 </p>
-              <p>Junior High | Golden Acres Nation High Scool | 2016-2020</p>
-              <p>Senior High | Informatics College Northgate | 2020-2022</p>
-              <p>College | Cavite State University - Bacoor | 2022-Present</p>
+              <p>• Elementary | Golden Acres Elementary School </p>
+              <p>• Junior High | Golden Acres National High Scool </p>
+              <p>• Senior High | Informatics College Northgate | 2020-2022</p>
+              <p>• College | Cavite State University - Bacoor | 2022-Present</p>
             </div>
 
           <div class="timeline-item">
             <p><span>Awards</span></p>
-            <p>Elementary | Consistent Honor Student | 4th Honorable Mention </p>
-            <p>Junior High | Consistent Honor Student | Graduated with Honors</p>
-            <p>Senior High | Service Awardee | Graduated with Honors</p>
-            <p>1st Year College | Gawad Parangal Awardee | President's Lister</p>
-            <p>2nd Year College | Vice President's Lister</p>
+            <p>• Elementary | Honor Student | 4th Honorable Mention </p>
+            <p>• Junior High | Honor Student | Graduated with Honors</p>
+            <p>• Senior High | Graduated with High Honors</p>
+            <p>• 1st Year College | Gawad Parangal Awardee </p>
+            <p>• 1st Year College | President's Lister</p>
+            <p>• 2nd Year College | Vice President's Lister</p>
           </div>
 
           <div class="timeline-item">
             <p><span>Experience</span></p>
-            <p>HTML - CSS - JS | Grade 11 | Started: 2021-Present </p>
-            <p>C# | Grade 12 | Started: 2022-Present</p>
-            <p>SQL | Grade 12 | Started: 2022-Present</p>
-            <p>Java | First Year College | Started: 2022-Present</p>
-            <p>Python | Second Year College | Started: 2023-Present</p>
-            <p>React.js | Second Year College | Started: 2022-Present</p>
+            <p>• HTML - CSS - JS | Grade 11 | Started: 2021-Present </p>
+            <p>• C# | Grade 12 | Started: 2022-Present</p>
+            <p>• SQL | Grade 12 | Started: 2022-Present</p>
+            <p>• Java | First Year College | Started: 2022-Present</p>
+            <p>• Python | Second Year College | Started: 2023-Present</p>
           </div>
         </div>
         <div class="timeline-controls">
@@ -304,38 +304,31 @@
 </footer>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const items = document.querySelectorAll(".timeline-item");
-    const prevBtn = document.getElementById("prev-btn");
-    const nextBtn = document.getElementById("next-btn");
-    let currentIndex = 0;
+  const timelineItems = document.querySelectorAll(".timeline-item");
+  const prevButton = document.getElementById("prev-btn");
+  const nextButton = document.getElementById("next-btn");
+  let currentIndex = 0;
 
-    // Initialize the first item as active
-    items[currentIndex].classList.add("active");
-
-    // Function to show a specific item
-    function showItem(index) {
-      items.forEach((item, i) => {
-        if (i === index) {
-          item.classList.add("active");
-        } else {
-          item.classList.remove("active");
-        }
-      });
-    }
-
-    // Event listeners for buttons
-    prevBtn.addEventListener("click", () => {
-      currentIndex = (currentIndex - 1 + items.length) % items.length;
-      showItem(currentIndex);
+  function showTimelineItem(index) {
+    timelineItems.forEach((item, i) => {
+      item.classList.toggle("active", i === index);
     });
+  }
 
-    nextBtn.addEventListener("click", () => {
-      currentIndex = (currentIndex + 1) % items.length;
-      showItem(currentIndex);
-    });
+  prevButton.addEventListener("click", () => {
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : timelineItems.length - 1;
+    showTimelineItem(currentIndex);
   });
+
+  nextButton.addEventListener("click", () => {
+    currentIndex = (currentIndex < timelineItems.length - 1) ? currentIndex + 1 : 0;
+    showTimelineItem(currentIndex);
+  });
+
+  // Initial display
+  showTimelineItem(currentIndex);
 </script>
+
 
     <script src="script.js"></script>
   </body>
