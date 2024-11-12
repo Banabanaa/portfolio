@@ -1,5 +1,9 @@
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+const menuIcon = document.getElementById('menu-icon');
+const navbar = document.querySelector('.navbar');
+
+menuIcon.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+});
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x')
@@ -10,6 +14,7 @@ menuIcon.onclick = () => {
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwtPNNueFzMHkSufOo00gHG2Q3BrYMyJLO-kbpyauuLssGVKQKoruabD5yQqiIy6bQX/exec';
 const form = document.forms['submit-to-google-sheet'];
 const msg = document.getElementById("msg");
+
 
 form.addEventListener('submit', e => {
   e.preventDefault();
@@ -27,4 +32,6 @@ form.addEventListener('submit', e => {
     })
     .catch(error => console.error('Error!', error.message));
 });
+
+
 
