@@ -212,7 +212,7 @@ about-img img{
 .timeline {
   text-align: left;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .timeline-slider {
@@ -239,7 +239,7 @@ about-img img{
 }
 
 .timeline-controls {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .timeline-controls button {
