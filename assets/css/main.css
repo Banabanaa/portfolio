@@ -710,7 +710,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -792,6 +792,7 @@ section,
 .hero .home-img img {
   max-width: 100%;
   max-height: 500px;
+  margin-top: 20px;
   transition: transform 0.3s ease;
 }
 
@@ -833,6 +834,118 @@ section,
     margin-bottom: 20px;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Resume Section
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.resume .resume-item {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-left: 2px solid var(--accent-color);
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 5px;
+}
+
+.resume .resume-item h5 {
+  font-size: 14px;
+  background: var(--accent-color);
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--contrast-color);
+  margin-bottom: 10px;
+}
+
+.resume .resume-item p,
+.resume .resume-item ul li {
+  font-size: 15px;
+  color: var(--default-color);
+}
+
+.resume ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.download-btn {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  transition: 0.3s ease;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.download-btn:hover {
+  background-color: color-mix(in srgb, var(--accent-color) 85%, white 15%);
+  color: var(--default-color);
+  text-decoration: none;
+}
+
+.download-btn i {
+  margin-right: 8px;
+}
+
+.resume-photo {
+  max-width: 100%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 200px;
+  margin-top: -30px;
+  border: 2px solid var(--accent-color);
+}
+
+
+@media (max-width: 768px) {
+  .resume .resume-title {
+    margin-top: 20px;
+  }
+
+  .resume-photo {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 200px;
+    margin-top: -30px;
+    border: 2px solid var(--accent-color);
+  }
+
+  .resume .resume-item {
+    padding-left: 15px;
+    border-left: 2px solid var(--accent-color);
+  }
+
+  .resume ul {
+    padding-left: 20px;
+  }
+
+  .download-btn {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -932,7 +1045,7 @@ section,
   object-fit: cover;
   width: 100%;
   height: auto;
-  max-height: 600px;
+  max-height: 550px;
 }
 
 .about .content {
@@ -951,7 +1064,7 @@ section,
 
 .carousel img {
   object-fit: cover;
-  height: 400px;
+  height: 500px;
 }
 
 /*--------------------------------------------------------------

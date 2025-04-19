@@ -13,7 +13,7 @@
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
               <h1>Contact</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <p class="mb-0">Thanks for stopping by! If you think we’d make a great team or you just have something to share, don’t hesitate to get in touch.</p>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php">Go Back</a></li>
             <li class="current">Contact</li>
           </ol>
         </div>
@@ -51,7 +51,7 @@
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call</h3>
-                  <p>+639 91 240 3677</p>
+                  <p>+639 991 240 3677</p>
                 </div>
               </div>
             </div><!-- End Info Item -->

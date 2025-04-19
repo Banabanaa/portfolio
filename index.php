@@ -38,7 +38,7 @@
         <!-- First Row: Personal Info -->
         <div class="row gy-4 align-items-center">
           <div class="col-lg-5">
-            <img src="assets/img/profile-img.jpg" class="img-fluid rounded shadow">
+            <img src="assets/img/pfp2.jpg" class="img-fluid rounded shadow">
           </div>
           <div class="col-lg-7 content">
             <h2>Aspiring Freelancer, UI/UX Designer, &amp; Web Developer.</h2>
@@ -57,7 +57,7 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>imbmillosa@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Hobbies:</strong> <span>Crochet, Billiards</span></li>
                 </ul>
               </div>
             </div>
@@ -66,9 +66,10 @@
               I specialize in creating intuitive, visually compelling designs and scalable web applications tailored to each client’s needs.
             </p>
             <p class="m-0">
-              I’m someone who embraces challenges and isn’t afraid to take risks to grow. While I tend to overthink, it allows me to spot details and recognize problems early on. 
-              Being slightly introverted helps me stay focused, observant, and thoughtful in how I work. These traits allow me to approach tasks with clarity, intention, and a strong sense of responsibility.
-            </p>
+            I’m someone who finds joy in exploring ideas, whether if it’s through digital design or hands-on hobbies like arts and crafts (crochet), or 
+            even a game of billiards. These things help fuel my creativity. I tend to overthink sometimes, 
+            but that also means I notice the little details and catch issues early on. I’m naturally introverted, which allows me to stay focused and 
+            intentional in how I work. Every project I take on is a chance to grow, connect, and create with a strong sense of purpose and responsibility.</p>
           </div>
         </div>
 
@@ -81,19 +82,19 @@
             <div id="familyCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="assets/img/family1.jpg" class="d-block w-100 rounded" alt="Family photo 1">
+                  <img src="assets/img/fam4.jpg" class="d-block w-100 rounded" alt="friends 1">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/family2.jpg" class="d-block w-100 rounded" alt="Family photo 2">
+                  <img src="assets/img/fam5.jpg" class="d-block w-100 rounded" alt="friends 2">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/family3.jpg" class="d-block w-100 rounded" alt="Family photo 3">
+                  <img src="assets/img/fam3.jpg" class="d-block w-100 rounded" alt="friends 3">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/family4.jpg" class="d-block w-100 rounded" alt="Family photo 4">
+                  <img src="assets/img/fam2.jpg" class="d-block w-100 rounded" alt="friends 4">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/family5.jpg" class="d-block w-100 rounded" alt="Family photo 5">
+                  <img src="assets/img/fam1.jpg" class="d-block w-100 rounded" alt="friends 5">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#familyCarousel" data-bs-slide="prev">
@@ -106,11 +107,15 @@
           </div>
           <div class="col-lg-7">
             <p class="mb-0">
-              Coming from a broken family has shaped much of who I am today. My mother separated from us early on, and since then, 
+              Coming from a broken family has shaped much of who I am today. My mother separated from us when I was a teenager, and since then, 
               I've been deeply motivated to focus on my studies and personal growth. With my father working hard as a technician and my older brother 
               supporting a family of his own, I’ve felt a strong responsibility to contribute and make something meaningful out of my journey. 
               These experiences have instilled in me a sense of resilience, purpose, and a deep drive to succeed—not just for myself, but for the people who believe in me.
-            </p>
+            </p><br>
+            <p>Because of everything I’ve been through, I’ve come to really appreciate my friends. They’ve become like my second 
+              family, my rock—always there when I need them. Spending time with them keeps me grounded, and honestly, I don’t know where I’d be without them.
+              And then there are my two cats, Luna and Iris. They’re sweet but a little bit naughty, they’ve been with me through it all, 
+              keeping me warm (literally and emotionally), when I'm with them, I am reminded to slow down and enjoy the little moments.</p>
           </div>
         </div>
 
