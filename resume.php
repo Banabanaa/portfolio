@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php'; ?>
+<style>
+  .tech-strip-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .tech-strip {
+    display: flex;
+    animation: scrollTech 30s linear infinite;
+  }
+
+  @keyframes scrollTech {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .tech-strip:hover {
+    animation-play-state: paused;
+  }
+</style>
 <body class="index-page dark-theme">
   <?php include 'includes/header.php'; ?>
 
@@ -8,50 +32,82 @@
 
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
-    <div class="heading">
+      <div class="heading">
         <div class="container">
-        <div class="row d-flex justify-content-center text-center">
+          <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-            <h1>Resume</h1>
-            <p class="mb-0">Want to know what I can bring to the table? Check out my resume —
-              especially if you're looking for someone dedicated, detail-oriented, and passionate about creative work.
-            I’m always open to exciting opportunities and collaborations. 
-            </p>
+              <h1>Resume</h1>
+              <p class="mb-0">
+                Want to know what I can bring to the table? Check out my resume — especially if you're looking for someone dedicated, detail-oriented, and passionate about creative work.
+                I’m always open to exciting opportunities and collaborations.
+              </p>
+
+              <!-- Animated Tech Strip -->
+              <div class="container my-4">
+                <div class="tech-strip-wrapper">
+                  <div class="tech-strip gap-2 py-2">
+                    <?php
+                      $techs = [
+                        ['Bootstrap', 'bootstrap/bootstrap-original.svg'],
+                        ['ReactJS', 'react/react-original.svg'],
+                        ['NextJS', 'nextjs/nextjs-original.svg'],
+                        ['HTML', 'html5/html5-original.svg'],
+                        ['CSS', 'css3/css3-original.svg'],
+                        ['JavaScript', 'javascript/javascript-original.svg'],
+                        ['NodeJS', 'nodejs/nodejs-original.svg'],
+                        ['Java', 'java/java-original.svg'],
+                        ['PHP', 'php/php-original.svg'],
+                        ['Laravel', 'laravel/laravel-original.svg'],
+                        ['Python', 'python/python-original.svg'],
+                        ['Django', 'django/django-plain.svg'],
+                        ['Figma', 'figma/figma-original.svg']
+                      ];
+
+                      // Output two copies for looping effect
+                      for ($i = 0; $i < 2; $i++) {
+                        foreach ($techs as $tech) {
+                          echo '<span class="badge rounded-pill bg-light text-dark border"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/' . $tech[1] . '" width="20" class="me-1"> ' . $tech[0] . '</span>';
+                        }
+                      }
+                    ?>
+                  </div>
+                </div>
+              </div>
+              <!-- End Tech Strip -->
+
             </div>
-        </div>
-        </div>
-    </div>
-    <nav class="breadcrumbs">
-        <div class="container">
-        <ol>
-        <li><a href="index.php">Go Back</a></li>
-            <li class="current">Contact</li>
-        </ol>
-        </div>
-    </nav>
-    </div><!-- End Page Title -->
-
-    <section id="resume" class="resume section" data-aos="fade-up">
-      <div class="container">
-
-      <div class="row align-items-center mb-4">
-        <!-- Image Column -->
-        <div class="col-md-3 text-center mb-3 mb-md-0">
-          <img src="assets/img/profile-img.jpg" alt="Profile Picture" class="img-fluid resume-photo">
-        </div>
-
-        <!-- Text + Button Column -->
-        <div class="col-md-9">
-          <div class="section-title mb-0">
-            <h2>Resume</h2>
-            <p class="mb-2">IVANA MARIEL BUSTILLOS MILLOSA</p>
-            <button class="btn btn-primary download-btn mt-2" data-bs-toggle="modal" data-bs-target="#pdfPreviewModal">
-              <i class="bi bi-eye"></i> Preview CV
-            </button>
           </div>
         </div>
       </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.php">Go Back</a></li>
+            <li class="current">Resume</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
 
+    <!-- Resume Section -->
+    <section id="resume" class="resume section" data-aos="fade-up">
+      <div class="container">
+
+        <div class="row align-items-center mb-4">
+          <div class="col-md-3 text-center mb-3 mb-md-0">
+            <img src="assets/img/profile-img.jpg" alt="Profile Picture" class="img-fluid resume-photo">
+          </div>
+
+          <div class="col-md-9">
+            <div class="section-title mb-0">
+              <h2>Resume</h2>
+              <p class="mb-2">IVANA MARIEL BUSTILLOS MILLOSA</p>
+              <button class="btn btn-primary download-btn mt-2" data-bs-toggle="modal" data-bs-target="#pdfPreviewModal">
+                <i class="bi bi-eye"></i> Preview CV
+              </button>
+            </div>
+          </div>
+        </div>
 
         <div class="row">
           <!-- Left Column -->
@@ -88,16 +144,13 @@
 
             <h3 class="resume-title">Skills</h3>
             <ul>
-              <li>Java (OOP), HTML, CSS, JavaScript, RDBMS, DBMS</li>
+              <li>Frontend: HTML, CSS, JavaScript, NextJS, React</li>
+              <li>Backend: Java (OOP), NodeJS, PHP, Python </li> 
+              <li>Frameworks: Django, Laravel </li>
+              <li>Database: RDBMS - MySQL, DBMS - MongoDB</li>
               <li>Microsoft Word, Excel, PowerPoint</li>
               <li>Team Collaboration, Adaptability</li>
               <li>Written & Oral Communication, Active Listening</li>
-            </ul>
-
-            <h3 class="resume-title">References</h3>
-            <ul>
-              <li>Ariel Diaz Sas – 0961 098 1015</li>
-              <li>Mary Rose Baita – 0961 265 2322</li>
             </ul>
           </div>
 
@@ -154,7 +207,6 @@
                 <li>Led the creative team in project collaborations.</li>
               </ul>
             </div>
-
           </div>
         </div>
 
@@ -185,14 +237,13 @@
 
           <div class="modal-footer justify-content-between">
             <small class="text-muted">Previewing: MILLOSA-CV.pdf</small>
-            <a href="assets/img/MILLOSA-CV.pdf" download class="btn btn-success">
+            <a href="assets/img/MILLOSA-CV.pdf" download class="btn download-btn">
               <i class="bi bi-download"></i> Download CV
             </a>
           </div>
         </div>
       </div>
     </div>
-
 
   </main>
 

@@ -9,19 +9,29 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="index.php" class="active">Home<br></a></li>
-        <li class="dropdown"><a href="skills.php"><span>Skills</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="skills.php">Trainings</a></li>
-            <li><a href="skills.php">Certificates</a></li>
-          </ul>
-        </li>
-        <li><a href="projects.php">Projects</a></li>
-        <li class="dropdown"><a href="experiences.php"><span>Experiences</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="experiences.php">Challenges</a></li>
-            <li><a href="experiences.php">Learnings</a></li>
-          </ul>
-        </li>
+        <li><a href="skills.php">Skills<br></a></li>
+        <li class="dropdown"><a href="projects.php"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Team Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="skills.php">Enrollment System</a></li>
+                  <li><a href="skills.php">Chess Club</a></li>
+                  <li><a href="skills.php">CvSU Website</a></li>
+                  <li><a href="skills.php">LÉ BUG</a></li>
+                  <li><a href="skills.php">Voting System</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Solo Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="skills.php">EMES Lit Galing</a></li>
+                  <li><a href="skills.php">POS System</a></li>
+                  <li><a href="skills.php">COG Checklist</a></li>
+                  <li><a href="skills.php">YOU DO NOTE</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        <li><a href="experiences.php">Experiences</a></li>
         <li><a href="plans.php">Plans</a></li>
         <li><a href="resume.php">Resume</a></li>
         <li><a href="contact.php">Contact</a></li>

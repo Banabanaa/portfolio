@@ -49,7 +49,7 @@
               <div class="col-md-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 April 2004</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+639 91 240 3677</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+63 991 240 3677</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bacoor, Cavite</span></li>
                 </ul>
               </div>
@@ -82,19 +82,19 @@
             <div id="familyCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="assets/img/fam4.jpg" class="d-block w-100 rounded" alt="friends 1">
+                  <img src="assets/img/fam/fam4.jpg" class="d-block w-100 rounded" alt="friends 1">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/fam5.jpg" class="d-block w-100 rounded" alt="friends 2">
+                  <img src="assets/img/fam/fam5.jpg" class="d-block w-100 rounded" alt="friends 2">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/fam3.jpg" class="d-block w-100 rounded" alt="friends 3">
+                  <img src="assets/img/fam/fam3.jpg" class="d-block w-100 rounded" alt="friends 3">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/fam2.jpg" class="d-block w-100 rounded" alt="friends 4">
+                  <img src="assets/img/fam/fam2.jpg" class="d-block w-100 rounded" alt="friends 4">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/fam1.jpg" class="d-block w-100 rounded" alt="friends 5">
+                  <img src="assets/img/fam/fam1.jpg" class="d-block w-100 rounded" alt="friends 5">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#familyCarousel" data-bs-slide="prev">
