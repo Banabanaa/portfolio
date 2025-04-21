@@ -14,19 +14,20 @@
             <ul>
               <li class="dropdown"><a href="#"><span>Team Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="skills.php">Enrollment System</a></li>
-                  <li><a href="skills.php">Chess Club</a></li>
-                  <li><a href="skills.php">CvSU Website</a></li>
-                  <li><a href="skills.php">LÉ BUG</a></li>
-                  <li><a href="skills.php">Voting System</a></li>
+                  <li><a href="cvsuES.php">Enrollment System</a></li>
+                  <li><a href="chessclub.php">Chess Club</a></li>
+                  <li><a href="cvsuwebsite.php">CvSU Website</a></li>
+                  <li><a href="lebug.php">LÉ BUG</a></li>
+                  <li><a href="votingsystem.php">Voting System</a></li>
+                  <li><a href="aetherresides.php">Aether Resides</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Solo Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="skills.php">EMES Lit Galing</a></li>
-                  <li><a href="skills.php">POS System</a></li>
+                  <li><a href="emes.php">EMES Lit Galing</a></li>
+                  <li><a href="POSsystem.php">POS System</a></li>
                   <li><a href="skills.php">COG Checklist</a></li>
-                  <li><a href="skills.php">YOU DO NOTE</a></li>
+                  <li><a href="youdonote.php">YOU DO NOTE</a></li>
                 </ul>
               </li>
             </ul>

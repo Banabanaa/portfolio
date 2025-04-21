@@ -38,9 +38,9 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/projects/" class="img-fluid" alt="">
+              <img src="assets/img/projects/es.png" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/projects/.jpg" 
+                <a href="assets/img/projects/es.png" 
                 title="CvSU Enrollment System" data-description="An enrollment system designed for CvSU-Bacoor City Campus" 
                 class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="cvsuES.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -52,7 +52,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/projects/chess.png" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/projects/chess.png" 
+                <a href="assets/img/projects/chess1.png" 
                 title="CvSU Chess Club" data-description="A Chess App that is a fully functional game application built using Java." 
                 class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="chessclub.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -83,12 +83,24 @@
               </div>
             </div>
           </div>
+          
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/img/projects/aether.png" class="img-fluid" alt="">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/img/projects/aether.png" 
+                title="Aether Resides" data-description="A Java application for Air BnB booking." 
+                class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="aetherresides.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
 
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/projects/" class="img-fluid" alt="">
+              <img src="assets/img/projects/votesys.png" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/projects/" 
+                <a href="assets/img/projects/votesys.png" 
                 title="CvSU Voting System" data-description="A web voting system designed for the Commission on Elections Organization of the CvSU Bacoor Campus." 
                 class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="votingsystem.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -122,9 +134,9 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/projects/" class="img-fluid" alt="">
+              <img src="assets/img/projects/checklist.png" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/projects/" 
+                <a href="assets/img/projects/checklist.png" 
                 title="COG Checklist" data-description="A simple web Checklist that shows student's grades throughout the years." 
                 class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="checklist.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -134,9 +146,9 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/projects/chess1.png" class="img-fluid" alt="">
+              <img src="assets/img/projects/youdonote.png" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/projects/chess1.png" 
+                <a href="assets/img/projects/youdonote.png" 
                 title="YOU DO NOTE" data-description="A simple note-taking app built with Django." 
                 class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="youdonote.php" class="details-link"><i class="bi bi-link-45deg"></i></a>

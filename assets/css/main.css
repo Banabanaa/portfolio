@@ -977,6 +977,11 @@ section,
 /*=========================
 = Gallery Section Styles =
 =========================*/
+.gallery {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
@@ -1374,8 +1379,15 @@ section,
 /*--------------------------------------------------------------
 # Gallery Details Section
 --------------------------------------------------------------*/
+.gallery-details {
+  margin-top: 40px;
+}
+
 .gallery-details .portfolio-details-slider img {
-  width: 100%;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .gallery-details .swiper-wrapper {
@@ -1408,6 +1420,12 @@ section,
 }
 
 @media (max-width: 575px) {
+  .gallery-details .portfolio-details-slider img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
 
   .gallery-details .swiper-button-prev,
   .gallery-details .swiper-button-next {
@@ -1488,61 +1506,6 @@ section,
 }
 
 .gallery-details .portfolio-description p {
-  padding: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item {
-  padding: 30px 30px 0 30px;
-  position: relative;
-  background: color-mix(in srgb, var(--default-color), transparent 97%);
-  margin-bottom: 50px;
-}
-
-.gallery-details .portfolio-description .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  float: left;
-  margin: 0 10px 0 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 15px 0 5px 0;
-  padding-top: 20px;
-}
-
-.gallery-details .portfolio-description .testimonial-item h4 {
-  font-size: 14px;
-  color: #6c757d;
-  margin: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-left,
-.gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  font-size: 26px;
-  line-height: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.gallery-details .portfolio-description .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 0 0 0;
   padding: 0;
 }
 

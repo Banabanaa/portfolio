@@ -42,8 +42,7 @@
                 I’m always open to exciting opportunities and collaborations.
               </p>
 
-              <!-- Animated Tech Strip -->
-              <div class="container my-4">
+              <div class="container mt-1 mb-0">
                 <div class="tech-strip-wrapper">
                   <div class="tech-strip gap-2 py-2">
                     <?php
@@ -73,7 +72,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Tech Strip -->
 
             </div>
           </div>
