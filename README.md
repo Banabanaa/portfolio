@@ -1,8 +1,8 @@
 # 🌐 Banabanaa Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, experiences, and projects as a developer. It's built using PHP, CSS, and JavaScript, and is deployed on **Netlify** for fast and reliable access.
+Welcome to my personal portfolio website! This project showcases my skills, experiences, and projects as a developer. It's built using PHP, CSS, and JavaScript, and is deployed on **Render** for fast and reliable access.
 
-🔗 **Live Site:** []()
+🔗 **Live Site:** [ivanamillosa-portfolio](https://ivanamillosa-portfolio.onrender.com/)
 
 ## 📎Portfolio Screenshots
 ![Portfolio Screenshot](assets/img/portdark.png)
@@ -29,7 +29,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 ## 🚀 Deployment
 
-This portfolio is deployed using [Netlify](https://www.netlify.com/), ensuring fast and reliable hosting.
+This portfolio is deployed using [Render](https://www.render.com/), ensuring fast and reliable hosting.
 
 ---
 
@@ -46,7 +46,7 @@ This portfolio is deployed using [Netlify](https://www.netlify.com/), ensuring f
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
-- **Hosting:** Netlify
+- **Hosting:** Render
 
 ---
 
