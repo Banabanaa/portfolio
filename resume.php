@@ -63,7 +63,7 @@
                           ['MongoDB', 'mongodb/mongodb-original.svg'],
                           ['MySQL', 'mysql/mysql-original.svg']
                         ];
-                        
+
                       // Output two copies for looping effect
                       for ($i = 0; $i < 2; $i++) {
                         foreach ($techs as $tech) {
@@ -191,7 +191,7 @@
             <div class="resume-item">
               <h4>Committee on Records & Documentation</h4>
               <h5>2023</h5>
-              <p><em>CSG, Cavite</em></p>
+              <p><em>Central Student Government, Cavite</em></p>
               <ul>
                 <li>Drafted proposals and requests.</li>
                 <li>Collaborated cross-functionally with other committees.</li>

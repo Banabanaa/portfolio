@@ -40,41 +40,39 @@
           <div class="col-lg-5">
             <img src="assets/img/pfp2.jpg" class="img-fluid rounded shadow">
           </div>
-          <div class="col-lg-7 content">
-            <h2>Aspiring Freelancer, UI/UX Designer, &amp; Web Developer.</h2>
-            <p class="fst-italic py-3">
-              I'm currently open to freelance opportunities — feel free to reach out via email to explore how we can work together.
-            </p>
-            <div class="row">
-              <div class="col-md-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 April 2004</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+63 991 240 3677</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bacoor, Cavite</span></li>
-                </ul>
+            <div class="col-lg-7 content">
+                <div class="section-title" >
+                    <h2>About Me</h2>
+                </div>
+              <h3>Hi! I am Ivana, You can call me Bans, Bana or Banana! 👋🏼 </h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 April 2004</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+63 991 240 3677</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bacoor, Cavite</span></li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>imbmillosa@gmail.com</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Favorite Color:</strong> <span>Purple</span></li>
+                  </ul>
+                </div>
               </div>
-              <div class="col-md-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>imbmillosa@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Hobbies:</strong> <span>Crochet, Billiards</span></li>
-                </ul>
-              </div>
+              <p class="py-3">
+                Ever since senior high school, I’ve had a spark of curiosity that led me to explore the world of technology, which is why I chose Computer Science as my course. It wasn’t always easy, and there were moments when things didn’t click right away, but through trial and error in my academic projects and persistence to learn, I gradually taught myself the ins and outs of different programming languages and concepts. 
+              </p>
+              <p class="m-0">
+                I am someone who finds joy in exploring ideas or hobbies, I like making crafts and enjoy leisure (I mean, who doesn’t?), because I believe a good balance is key to staying inspired and doing my best work. Which is why playing online games or billiards help fuel my creativity. I tend to overthink sometimes, but that also means I notice the little details and catch issues early on. I’m naturally introverted, which allows me to stay focused and intentional in how I work. Every project I take on is a chance to grow, connect, and create with a strong sense of purpose and responsibility.</p>
             </div>
-            <p class="py-3">
-              As an aspiring freelancer, I'm deeply passionate about building websites that help brands, businesses, institutions, and startups grow through strategic, user-focused web solutions. 
-              I specialize in creating intuitive, visually compelling designs and scalable web applications tailored to each client’s needs.
-            </p>
-            <p class="m-0">
-            I’m someone who finds joy in exploring ideas, whether if it’s through digital design or hands-on hobbies like arts and crafts (crochet), or 
-            even a game of billiards. These things help fuel my creativity. I tend to overthink sometimes, 
-            but that also means I notice the little details and catch issues early on. I’m naturally introverted, which allows me to stay focused and 
-            intentional in how I work. Every project I take on is a chance to grow, connect, and create with a strong sense of purpose and responsibility.</p>
-          </div>
         </div>
+      </div>
 
         <hr class="my-5">
 
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 align-items-center flex-lg-row-reverse">
           <div class="col-lg-5">
             <!-- slideshow -->
@@ -105,6 +103,9 @@
             </div>
           </div>
           <div class="col-lg-7">
+              <div class="section-title">
+              <h2>Family Background</h2>
+              </div>
             <p class="mb-0">
               Coming from a broken family has shaped much of who I am today. My mother separated from us when I was a teenager, and since then, 
               I've been deeply motivated to focus on my studies and personal growth. With my father working hard as a technician and my older brother 

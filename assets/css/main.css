@@ -13,7 +13,7 @@
   --background-color: #000000;
   --default-color: #fafafa;
   --heading-color: #ffffff;
-  --accent-color: #b442d4;
+  --accent-color: #8f31aa;
   --surface-color: #000000;
   --contrast-color: #ffffff;
 
@@ -723,7 +723,7 @@ section,
   margin: 0;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
   position: relative;
   font-family: var(--default-font);
 }
@@ -1225,9 +1225,15 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .content h2 {
+.about {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.about .content h3 {
   font-weight: 700;
   font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .about .content ul {
@@ -1236,7 +1242,7 @@ section,
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
@@ -1277,7 +1283,7 @@ section,
 .carousel img {
   object-fit: cover;
   height: 500px;
-  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /*--------------------------------------------------------------
@@ -1417,12 +1423,11 @@ section,
 # Plans Section
 --------------------------------------------------------------*/
 .plans {
-  margin-bottom: 50px;
   margin-top: 20px;
 }
 
 .plans .plans-item {
-  background-color: var(--surface-color);
+  background-color: var(--nav-dropdown-background-color);
   padding: 50px 30px;
   transition: all 0.3s ease-in-out;
   height: 100%;
@@ -1491,26 +1496,96 @@ section,
   border-radius: 0px;
 }
 
+
+
 /*--------------------------------------------------------------
-# Pricing Section
+# Future Plans Gallery Section
 --------------------------------------------------------------*/
-.pricing .pricing-item {
-  border-bottom: 1px dashed color-mix(in srgb, var(--default-color), transparent 60%);
-  width: 100%;
-  height: 100%;
-  padding: 0 0 15px 0;
+#futureplansgallery {
+  padding: 60px 0;
 }
 
-.pricing .pricing-item h3 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 600;
+.futureplansgallery .futureplansgallery-item {
+  background-color: var(--nav-dropdown-background-color);
+  box-shadow: 0px 0 20px rgba(0, 0, 0, 0.1);
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 40px 30px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 10%;
 }
 
-.pricing .pricing-item h4 {
-  margin: 0;
+.futureplansgallery .futureplansgallery-item .futureplansgallery-img {
+  width: 220px;
+  border:1px solid var(--contrast-color);
+  margin: 0 auto;
+}
+
+.futureplansgallery .futureplansgallery-item h3 {
   font-size: 18px;
-  color: var(--accent-color);
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.futureplansgallery .futureplansgallery-item h4 {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin: 0;
+}
+
+.futureplansgallery .futureplansgallery-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  font-size: 12px;
+}
+
+.futureplansgallery .swiper-wrapper {
+  height: auto;
+}
+
+.futureplansgallery .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.futureplansgallery .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+  opacity: 1;
+}
+
+.futureplansgallery .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--accent-color);
+}
+
+.futureplansgallery .swiper-slide {
+  opacity: 0.3;
+}
+
+@media (max-width: 1199px) {
+  .futureplansgallery .swiper-slide-active {
+    opacity: 1;
+  }
+
+  .futureplansgallery .swiper-pagination {
+    margin-top: 0;
+  }
+
+  .futureplansgallery .testimonial-item {
+    margin: 40px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .futureplansgallery .swiper-slide-next {
+    opacity: 1;
+    transform: scale(1.12);
+  }
 }
 
 /*--------------------------------------------------------------

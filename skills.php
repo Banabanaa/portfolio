@@ -115,7 +115,7 @@
                 <img src="assets/img/bana.JPG" alt="Profile Picture" class="rounded-circle shadow" style="width: 250px; height: 250px; object-fit: cover;">
             </div>
             <div class="col-lg-8 col-md-10 mt-4 mt-lg-0">
-                <div class="p-4 rounded shadow" style="background-color: var(--background-color); color: var(--contrast-color); border-radius: 20px;">
+                <div class="p-4 rounded shadow" style="background-color: var(--nav-dropdown-background-color); color: var(--contrast-color); border-radius: 20px;">
                 <p class="lead">
                     As a consistent student leader from elementary through college, I’ve developed strong skills in team collaboration, adaptability, conflict resolution, and strategic thinking. Leading diverse groups has taught me how to listen actively, communicate clearly, and foster environments where everyone can thrive. These experiences shaped my ability to work effectively under pressure and adapt to changing circumstances with confidence.
                     <br><br>
