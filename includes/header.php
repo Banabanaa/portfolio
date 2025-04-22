@@ -26,7 +26,7 @@
                 <ul>
                   <li><a href="emes.php">EMES Lit Galing</a></li>
                   <li><a href="POSsystem.php">POS System</a></li>
-                  <li><a href="skills.php">COG Checklist</a></li>
+                  <li><a href="checklist.php">COG Checklist</a></li>
                   <li><a href="youdonote.php">YOU DO NOTE</a></li>
                 </ul>
               </li>

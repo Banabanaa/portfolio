@@ -11,17 +11,16 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>CvSU Website</h1>
-              <p class="mb-0">This project was built with my groupmates, we used the following programming languages to successfully make this:</p>
+              <h1>Likhang Kamay POS</h1>
+              <p class="mb-0">This project uses a single programming language to create an effective and user-friendly interface.</p>
+
 
               <div class="container mt-1 mb-0">
                 <div class="tech-strip-wrapper">
                 <div class="tech-strip d-flex justify-content-center flex-wrap gap-3 py-2">
                     <?php
                         $techs = [
-                        ['HTML', 'html5/html5-original.svg'],
-                        ['CSS', 'css3/css3-original.svg'],
-                        ['JavaScript', 'javascript/javascript-original.svg']
+                          ['Java', 'java/java-original.svg']
                         ];
 
                         foreach ($techs as $tech) {
@@ -43,7 +42,7 @@
         <div class="container">
           <ol>
             <li><a href="projects.php">Go Back</a></li>
-            <li class="current">CvSU Website</li>
+            <li class="current">Likhang Kamay POS</li>
           </ol>
         </div>
       </nav>
@@ -77,11 +76,11 @@
             <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu.png" alt="">
+                <img src="assets/img/projects/pos2.png" alt="">
             </div>
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu1.png" alt="">
+                <img src="assets/img/projects/pos.png" alt="">
             </div>
 
             </div>
@@ -94,35 +93,20 @@
 
             <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-                <h2>Cavite State University - Bacoor City Campus Website</h2>
-                <p>
-                This is only a demo version or a simple layout for the CvSU - B's website.
-                </p>
-                <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-                </p>
-
-                <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-                </p>
-
-                <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-                </p>
-
+               <h2>A POS System for Likhang Kamay</h2>
+                  <p>This user-friendly POS application is designed to help owners efficiently manage their inventory, track sales, and access essential business data with ease. The system offers real-time sales tracking, inventory updates, and detailed reporting to support informed decision-making and streamline business operations.</p>
+                  <p>With an intuitive interface, the POS system simplifies transaction processes and provides a seamless experience for both the owners and their staff, ensuring better control over business performance and inventory management.</p>
             </div>
             </div>
 
             <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
-                <h3>Project information</h3>
+            <h3>Project information</h3>
                 <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Language</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">Not deployed - demo only.</a></li>
-                <li><a href="#" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
+                <li><strong>Category</strong> Point of Sale System</li>
+                <li><strong>Tech Stack</strong> Java </li>
+                <li><strong>Project date</strong>January 2023</li>
+                <li><a href="https://github.com/Banabanaa/likhangkamay/tree/master/Documents/New/LIkhangKamayPOS" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
                 </ul>
             </div>
             </div>
@@ -131,7 +115,7 @@
 
         </div>
 
-    </section><!-- /Project Details Section -->
+    </section>
 
   </main>
 

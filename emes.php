@@ -21,7 +21,8 @@
                         $techs = [
                         ['HTML', 'html5/html5-original.svg'],
                         ['CSS', 'css3/css3-original.svg'],
-                        ['JavaScript', 'javascript/javascript-original.svg']
+                        ['JavaScript', 'javascript/javascript-original.svg'],
+                        ['MySQL', 'mysql/mysql-original.svg']
                         ];
 
                         foreach ($techs as $tech) {
@@ -77,11 +78,19 @@
             <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu.png" alt="">
+                <img src="assets/img/projects/emes.png" alt="">
             </div>
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu1.png" alt="">
+                <img src="assets/img/projects/emes1.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="assets/img/projects/emes2.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="assets/img/projects/emes3.png" alt="">
             </div>
 
             </div>
@@ -94,36 +103,24 @@
 
             <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-                <h2>Cavite State University - Bacoor City Campus Website</h2>
-                <p>
-                This is only a demo version or a simple layout for the CvSU - B's website.
-                </p>
-                <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-                </p>
+            <h2>Learning Management System for Ezra Marie Elementary School</h2>
+              <p>This project is tailored specifically for Grade 6 students at Ezra Marie Elementary School. The educational platform focuses on computer-related topics and is user-friendly for this age group.</p>
 
-                <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-                </p>
-
-                <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-                </p>
+              <p>The website provides access for both admins and users. Admins have control over accounts management, content uploading, and progress tracking for both teachers and students. Teachers can upload materials and assessments, while students can track their progress in the modules.</p>
 
             </div>
             </div>
 
             <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
-                <h3>Project information</h3>
-                <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Language</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">Not deployed - demo only.</a></li>
-                <li><a href="#" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
-                </ul>
+              <h3>Project information</h3>
+                  <ul>
+                  <li><strong>Category</strong> Web Development / Educational Tool</li>
+                  <li><strong>Client</strong> Ezra Marie Elementary School</li>
+                  <li><strong>Tech Stack</strong>PHP, CSS, HTML, JavaScript, MySQL</li>
+                  <li><strong>Project date</strong> June 2022 </li>
+                  <li><a href="https://github.com/Banabanaa/emeslitgaling" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
+                  </ul>
             </div>
             </div>
 
@@ -131,7 +128,7 @@
 
         </div>
 
-    </section><!-- /Project Details Section -->
+    </section>
 
   </main>
 

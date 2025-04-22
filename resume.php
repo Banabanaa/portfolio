@@ -46,22 +46,24 @@
                 <div class="tech-strip-wrapper">
                   <div class="tech-strip gap-2 py-2">
                     <?php
-                      $techs = [
-                        ['Bootstrap', 'bootstrap/bootstrap-original.svg'],
-                        ['ReactJS', 'react/react-original.svg'],
-                        ['NextJS', 'nextjs/nextjs-original.svg'],
-                        ['HTML', 'html5/html5-original.svg'],
-                        ['CSS', 'css3/css3-original.svg'],
-                        ['JavaScript', 'javascript/javascript-original.svg'],
-                        ['NodeJS', 'nodejs/nodejs-original.svg'],
-                        ['Java', 'java/java-original.svg'],
-                        ['PHP', 'php/php-original.svg'],
-                        ['Laravel', 'laravel/laravel-original.svg'],
-                        ['Python', 'python/python-original.svg'],
-                        ['Django', 'django/django-plain.svg'],
-                        ['Figma', 'figma/figma-original.svg']
-                      ];
-
+                        $techs = [
+                          ['Bootstrap', 'bootstrap/bootstrap-original.svg'],
+                          ['ReactJS', 'react/react-original.svg'],
+                          ['NextJS', 'nextjs/nextjs-original.svg'],
+                          ['HTML', 'html5/html5-original.svg'],
+                          ['CSS', 'css3/css3-original.svg'],
+                          ['JavaScript', 'javascript/javascript-original.svg'],
+                          ['NodeJS', 'nodejs/nodejs-original.svg'],
+                          ['Java', 'java/java-original.svg'],
+                          ['PHP', 'php/php-original.svg'],
+                          ['Laravel', 'laravel/laravel-original.svg'],
+                          ['Python', 'python/python-original.svg'],
+                          ['Django', 'django/django-plain.svg'],
+                          ['Figma', 'figma/figma-original.svg'],
+                          ['MongoDB', 'mongodb/mongodb-original.svg'],
+                          ['MySQL', 'mysql/mysql-original.svg']
+                        ];
+                        
                       // Output two copies for looping effect
                       for ($i = 0; $i < 2; $i++) {
                         foreach ($techs as $tech) {

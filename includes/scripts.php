@@ -13,7 +13,6 @@
   const toggleBtn = document.getElementById("theme-toggle");
   const icon = toggleBtn.querySelector("i");
 
-  // Load saved theme from localStorage
   const savedTheme = localStorage.getItem("theme");
 
   if (savedTheme === "light") {
@@ -26,7 +25,7 @@
     icon.classList.add("bi-moon-stars-fill");
   }
 
-  // Toggle theme on click
+  // for the dark/light mode
   toggleBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark-theme");
     document.body.classList.toggle("light-theme");
@@ -68,7 +67,7 @@
   </script>
 
 <script>
-  // Function to highlight the current active page
+  // active page
   document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.querySelectorAll('#navmenu a');
     const currentPage = window.location.pathname.split('/').pop();
@@ -76,9 +75,9 @@
     navLinks.forEach(link => {
       const linkPage = link.getAttribute('href');
       if (linkPage === currentPage) {
-        link.classList.add('active'); // Add the active class to the current page
+        link.classList.add('active');
       } else {
-        link.classList.remove('active'); // Remove active class from others
+        link.classList.remove('active');
       }
     });
   });

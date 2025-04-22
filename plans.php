@@ -27,7 +27,7 @@
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- /Future Plans  Section -->
+    <!-- Future Plans  Section -->
     <section id="plans" class="plans section">
 
       <div class="container">
@@ -69,7 +69,7 @@
 
       </div>
 
-    </section><!-- /Future Plans Section -->
+    </section>
 
   </main>
 

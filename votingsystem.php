@@ -11,8 +11,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>CvSU Website</h1>
-              <p class="mb-0">This project was built with my groupmates, we used the following programming languages to successfully make this:</p>
+              <h1>CvSU Voting System</h1>
+              <p class="mb-0">Collaboratively developed with my team, this system integrates multiple programming languages to deliver a robust and effective voting experience.</p>
 
               <div class="container mt-1 mb-0">
                 <div class="tech-strip-wrapper">
@@ -21,6 +21,7 @@
                         $techs = [
                         ['HTML', 'html5/html5-original.svg'],
                         ['CSS', 'css3/css3-original.svg'],
+                        ['MongoDB', 'mongodb/mongodb-original.svg'],
                         ['JavaScript', 'javascript/javascript-original.svg']
                         ];
 
@@ -43,7 +44,7 @@
         <div class="container">
           <ol>
             <li><a href="projects.php">Go Back</a></li>
-            <li class="current">CvSU Website</li>
+            <li class="current">CvSU Voting System</li>
           </ol>
         </div>
       </nav>
@@ -77,11 +78,15 @@
             <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu.png" alt="">
+                <img src="assets/img/projects/votesys.png" alt="">
             </div>
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu1.png" alt="">
+                <img src="assets/img/projects/votesys1.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="assets/img/projects/votesys2.png" alt="">
             </div>
 
             </div>
@@ -94,36 +99,29 @@
 
             <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-                <h2>Cavite State University - Bacoor City Campus Website</h2>
-                <p>
-                This is only a demo version or a simple layout for the CvSU - B's website.
-                </p>
-                <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-                </p>
-
-                <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-                </p>
-
-                <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-                </p>
-
+              <h2>CvSU Voting System</h2>
+                  <p>
+                  This project, a voting system is a platform designed to provide a smooth, secure, and reliable voting experience for students at Cavite State University - Bacoor City Campus. The system allows the Commission on Student Elections (COMSELEC), to efficiently manage the entire electoral process, from voter registration to tallying results.
+                  </p>
+                  <p>
+                  Administrators can create voter accounts, add candidates, view vote tallies, and update voter information. These features ensure full control, transparency, and accuracy in the election process. The system is designed to maintain the integrity of the elections and provide administrators with an easy-to-use interface for managing the election.
+                  </p>
+                  <p>
+                  The voting system also includes a user interface for students to cast their votes. The voting process is user-friendly and allows students to vote with ease and confidence, ensuring a seamless election experience.
+                  </p>
             </div>
             </div>
 
             <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
-                <h3>Project information</h3>
-                <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Language</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">Not deployed - demo only.</a></li>
-                <li><a href="#" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
-                </ul>
+              <h3>Project information</h3>
+                  <ul>
+                  <li><strong>Category</strong> Web Development / Election Management</li>
+                  <li><strong>Client</strong> CvSU Registrar</li>
+                  <li><strong>Tech Stack</strong> PHP, CSS, HTML, JavaScript, MongoDB</li>
+                  <li><strong>Project date</strong> April - June 2024</li>
+                  <li><a href="https://github.com/Banabanaa/votesystem" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
+                  </ul>
             </div>
             </div>
 
@@ -131,7 +129,7 @@
 
         </div>
 
-    </section><!-- /Project Details Section -->
+    </section>
 
   </main>
 

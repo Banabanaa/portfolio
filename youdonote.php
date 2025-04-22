@@ -11,7 +11,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>CvSU Website</h1>
+              <h1>YOU DO NOTE</h1>
               <p class="mb-0">This project was built with my groupmates, we used the following programming languages to successfully make this:</p>
 
               <div class="container mt-1 mb-0">
@@ -19,9 +19,10 @@
                 <div class="tech-strip d-flex justify-content-center flex-wrap gap-3 py-2">
                     <?php
                         $techs = [
-                        ['HTML', 'html5/html5-original.svg'],
-                        ['CSS', 'css3/css3-original.svg'],
-                        ['JavaScript', 'javascript/javascript-original.svg']
+                          ['Python', 'python/python-original.svg'],
+                          ['HTML', 'html5/html5-original.svg'],
+                          ['Django', 'django/django-plain.svg'],
+                          ['CSS', 'css3/css3-original.svg']
                         ];
 
                         foreach ($techs as $tech) {
@@ -77,11 +78,15 @@
             <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu.png" alt="">
+                <img src="assets/img/projects/youdonote.png" alt="">
             </div>
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu1.png" alt="">
+                <img src="assets/img/projects/youdonote2.png" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="assets/img/projects/youdonote3.png" alt="">
             </div>
 
             </div>
@@ -94,22 +99,13 @@
 
             <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-                <h2>Cavite State University - Bacoor City Campus Website</h2>
+            <h2>YOU DO NOTE - Note Taking App</h2>
                 <p>
-                This is only a demo version or a simple layout for the CvSU - B's website.
+                The You Do Note System is a simple yet powerful tool designed to help users efficiently create, edit, and organize their notes. Whether for personal tasks, professional projects, or educational purposes, the app allows users to quickly capture information, create to-do lists, and manage important tasks with ease.
                 </p>
                 <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+                With its intuitive and user-friendly interface, You Do Note ensures that users can access and organize their notes effortlessly. The system makes it easy to stay on top of tasks, set reminders, and keep track of important information, making it an ideal solution for anyone looking to improve productivity and stay organized.
                 </p>
-
-                <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-                </p>
-
-                <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-                </p>
-
             </div>
             </div>
 
@@ -117,12 +113,10 @@
             <div class="portfolio-info">
                 <h3>Project information</h3>
                 <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Language</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">Not deployed - demo only.</a></li>
-                <li><a href="#" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
+                <li><strong>Category</strong> Web Development</li>
+                <li><strong>Language</strong> Python, HTML, CSS, Django</li>
+                <li><strong>Project date</strong>January 2025</li>
+                <li><a href="https://github.com/Banabanaa/you-do-note" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
                 </ul>
             </div>
             </div>
@@ -131,7 +125,7 @@
 
         </div>
 
-    </section><!-- /Project Details Section -->
+    </section>
 
   </main>
 

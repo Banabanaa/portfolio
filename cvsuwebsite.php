@@ -94,22 +94,16 @@
 
             <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-                <h2>Cavite State University - Bacoor City Campus Website</h2>
-                <p>
-                This is only a demo version or a simple layout for the CvSU - B's website.
-                </p>
-                <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-                </p>
-
-                <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-                </p>
-
-                <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-                </p>
-
+            <h2>Cavite State University - Bacoor City Campus Website</h2>
+              <p>
+              This is a demo version or a simple layout for the CvSU - Bacoor's website, designed to give an overview of the university’s online presence.
+              </p>
+              <p>
+              The CvSU Bacoor City Campus website showcases the institution's mission, vision, courses offered, and various student organizations. It provides an easy-to-navigate interface for prospective students, parents, and visitors to explore academic offerings and campus life.
+              </p>
+              <p>
+              In addition, the website includes sections for news and events, contact information, and resources for current and future students, making it a comprehensive platform for the university community.
+              </p>
             </div>
             </div>
 
@@ -117,12 +111,10 @@
             <div class="portfolio-info">
                 <h3>Project information</h3>
                 <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Language</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">Not deployed - demo only.</a></li>
-                <li><a href="#" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
+                <li><strong>Category</strong> Web Development / University Website</li>
+                <li><strong>Tech Stack</strong> HTML, CSS, JavaScript</li>
+                <li><strong>Project date</strong>October 2023</li>
+                <li><a href="https://github.com/Banabanaa/cvsuwebsite" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
                 </ul>
             </div>
             </div>
@@ -131,8 +123,8 @@
 
         </div>
 
-    </section><!-- /Project Details Section -->
-
+    </section>
+    
   </main>
 
   <?php include 'includes/footer.php'; ?>

@@ -11,17 +11,17 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>CvSU Website</h1>
-              <p class="mb-0">This project was built with my groupmates, we used the following programming languages to successfully make this:</p>
+              <h1>Chess Club</h1>
+              <h1>CvSU Enrollment System</h1>
+                <p class="mb-0">This project was executed in partnership with my colleague, this game uses a single programming language to create an effective and user-friendly interface.</p>
+
 
               <div class="container mt-1 mb-0">
                 <div class="tech-strip-wrapper">
                 <div class="tech-strip d-flex justify-content-center flex-wrap gap-3 py-2">
                     <?php
                         $techs = [
-                        ['HTML', 'html5/html5-original.svg'],
-                        ['CSS', 'css3/css3-original.svg'],
-                        ['JavaScript', 'javascript/javascript-original.svg']
+                          ['Java', 'java/java-original.svg']
                         ];
 
                         foreach ($techs as $tech) {
@@ -43,7 +43,7 @@
         <div class="container">
           <ol>
             <li><a href="projects.php">Go Back</a></li>
-            <li class="current">CvSU Website</li>
+            <li class="current">Chess Club</li>
           </ol>
         </div>
       </nav>
@@ -77,11 +77,15 @@
             <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu.png" alt="">
+                <img src="assets/img/projects/chess.png" alt="">
+            </div>
+            
+            <div class="swiper-slide">
+                <img src="assets/img/projects/chess2.png" alt="">
             </div>
 
             <div class="swiper-slide">
-                <img src="assets/img/projects/cvsu1.png" alt="">
+                <img src="assets/img/projects/chess3.png" alt="">
             </div>
 
             </div>
@@ -94,20 +98,12 @@
 
             <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-                <h2>Cavite State University - Bacoor City Campus Website</h2>
+                <h2>Chess Club</h2>
                 <p>
-                This is only a demo version or a simple layout for the CvSU - B's website.
+                This project was built solely using Java OOP to create a game that offers an interactive chess board for its users. 
                 </p>
                 <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-                </p>
-
-                <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-                </p>
-
-                <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+                ChessClub is a Java-based chess game designed for players to enjoy a classic, strategic board game experience. The project aims to provide an interactive and user-friendly platform for playing chess, with features to support both single-player and multiplayer modes. Built with NetBeans IDE, ChessClub offers an engaging way to challenge opponents and improve your chess skills.
                 </p>
 
             </div>
@@ -117,12 +113,10 @@
             <div class="portfolio-info">
                 <h3>Project information</h3>
                 <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Language</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">Not deployed - demo only.</a></li>
-                <li><a href="#" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
+                <li><strong>Category</strong> Game Development</li>
+                <li><strong>Tech Stack</strong> Java </li>
+                <li><strong>Project date</strong>July 2023</li>
+                <li><a href="https://github.com/Banabanaa/chessclub" class="btn-visit align-self-start"><i class="bi bi-github"></i>Visit Git Repository</a></li>
                 </ul>
             </div>
             </div>
@@ -131,8 +125,8 @@
 
         </div>
 
-    </section><!-- /Project Details Section -->
-
+    </section>
+    
   </main>
 
   <?php include 'includes/footer.php'; ?>

@@ -69,6 +69,7 @@
           </div>
         </div>
 
+        <!-- Contact Form -->
         <form id="contact-form" action="https://formspree.io/f/mgveyypb" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
           <div class="row gy-4">
             <div class="col-md-6">
@@ -98,11 +99,11 @@
               <button type="reset" class="btn btn-secondary">CLEAR</button>
             </div>
           </div>
-        </form><!-- End Contact Form -->
+        </form>
 
       </div>
 
-    </section><!-- /Contact Section -->
+    </section>
 
   </main>
 

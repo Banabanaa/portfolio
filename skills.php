@@ -33,7 +33,7 @@
         <div class="container">
             
             <div class="row justify-content-center mb-5">
-            <!-- Desktop View -->
+            <!-- desktop -->
             <div class="d-none d-lg-flex col-auto justify-content-center gap-4">
                 <img src="assets/img/portraitpic.jpg" alt="Portrait 1" class="img-fluid rounded shadow skill-img-centered">
                 <img src="assets/img/portraitpic2.jpg" alt="Portrait 2" class="img-fluid rounded shadow skill-img-centered">
@@ -41,7 +41,7 @@
                 <img src="assets/img/portraitpic4.jpg" alt="Portrait 4" class="img-fluid rounded shadow skill-img-centered">
             </div>
 
-            <!-- Mobile Carousel -->
+            <!-- mobile -->
             <div class="d-lg-none">
                 <div id="portraitCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -58,7 +58,7 @@
                     <img src="assets/img/portraitpic4.jpg" class="d-block w-100 rounded shadow skill-img-centered" alt="Portrait 2">
                     </div>
                 </div>
-                <!-- Optional controls -->
+                
                 <button class="carousel-control-prev" type="button" data-bs-target="#portraitCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>

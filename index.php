@@ -35,7 +35,7 @@
     <section id="about" class="about section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <!-- First Row: Personal Info -->
+        <!-- My Personal Info -->
         <div class="row gy-4 align-items-center">
           <div class="col-lg-5">
             <img src="assets/img/pfp2.jpg" class="img-fluid rounded shadow">
@@ -73,12 +73,11 @@
           </div>
         </div>
 
-        <!-- Divider -->
         <hr class="my-5">
 
         <div class="row gy-4 align-items-center flex-lg-row-reverse">
           <div class="col-lg-5">
-            <!-- Carousel / Slideshow -->
+            <!-- slideshow -->
             <div id="familyCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
