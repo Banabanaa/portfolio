@@ -83,3 +83,19 @@
   });
 </script>
 
+<script>
+  const tabs = document.querySelectorAll(".tab");
+  const panes = document.querySelectorAll(".tab-pane");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      tabs.forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+
+      const target = tab.getAttribute("data-tab");
+      panes.forEach(pane => {
+        pane.classList.toggle("active", pane.id === target);
+      });
+    });
+  });
+</script>

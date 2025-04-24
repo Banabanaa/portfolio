@@ -29,10 +29,13 @@
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Gallery Section -->
+    <!-- Team Project Section -->
     <section id="gallery" class="gallery section">
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+      <h2>TEAM PROJECTS</h2>
+      <br>
 
         <div class="row gy-4 justify-content-center">
 
@@ -52,7 +55,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/projects/chess.png" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/projects/chess1.png" 
+                <a href="assets/img/projects/chess.png" 
                 title="CvSU Chess Club" data-description="A Chess App that is a fully functional game application built using Java." 
                 class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="chessclub.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -108,6 +111,22 @@
             </div>
           </div>
 
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Solo Project Section -->
+    <section id="gallery" class="gallery section">
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+      <h2>SOLO PROJECTS</h2>
+      <br>
+
+        <div class="row gy-4 justify-content-center">
+
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
               <img src="assets/img/projects/emes.png" class="img-fluid" alt="">
@@ -160,7 +179,8 @@
 
       </div>
 
-    </section>
+      </section>
+
 
   </main>
 
